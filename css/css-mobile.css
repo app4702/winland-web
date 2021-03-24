@@ -1,0 +1,125 @@
+.main-page{
+    width: 100%; 
+    height: 100%;
+}
+
+#homedv{
+    width: 100%;
+    min-height: 170px;
+    overflow: hidden;
+    background: url(../images/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navigation{
+    width: 674px;
+    height: 100px;
+    text-align: center;
+    margin-right: 387px;
+    position: absolute;
+    left: 440px;
+
+}
+
+.navigation a{
+    text-decoration:none;
+    color: #1568e5;
+}
+
+.navigation a:hover {
+    border-bottom: 4px solid #9045e6 ;
+}
+
+.navigation li{
+    list-style-type:none;
+    margin-top: 45px;
+    font-size: 24px;
+    color: #1568e5;
+    line-height: 38px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 33px;
+    float: left;
+    font-weight: bold;
+}
+
+.logo{
+    float: left;
+    margin-left: 37%;
+    margin-top: 11px;
+    width: 102px;
+    height: 67px;
+    background: url('../images/logo.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    clear: both;
+}
+
+#top-bar{
+    height:100px; 
+}
+
+#hoteventdv{
+    width: 100%;
+    min-height: 115px;
+    background: url(../images/hot-event.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#newsdv{
+    min-height: 115px;
+    width: 100%;
+    background: url(../images/news.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#gamesdv{
+    width: 100%;
+    min-height: 122px;
+    background: url(../images/games.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contactdv{
+    min-height: 109px;
+    width: 100%;
+    background: url(../images/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#footerdv{
+    width: 100%;
+    min-height: 32px;
+    background: url(../images/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    width: 45px;
+    min-height: 34px;
+    background: url(../images/menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 5px;
+    border: none;
+    margin-top: 12px;
+    position: absolute;
+    outline: none
+}
+
+.mobile-nav li{
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.mobile-nav a{
+    text-decoration:none;
+    color: #ffffff;
+}

@@ -1,0 +1,110 @@
+@media screen and (min-width:900px)
+{
+
+.main-page{
+    width: 100%; 
+    height: 100%;
+    /*background: url('../images/background.jpg');
+    background-size: contain;
+    background-repeat:no-repeat;*/
+}
+
+#homedv{
+    min-width: 1800px;
+    height: 939px;
+    background: url('../images/home.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.navigation{
+    width: 674px;
+    height: 100px;
+    text-align: center;
+    margin-right: 387px;
+    position: absolute;
+    left: 440px;
+
+}
+
+.navigation a{
+    text-decoration:none;
+    color: #1568e5;
+}
+
+.navigation a:hover {
+    border-bottom: 4px solid #9045e6 ;
+}
+
+.navigation li{
+    list-style-type:none;
+    margin-top: 45px;
+    font-size: 24px;
+    color: #1568e5;
+    line-height: 38px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 33px;
+    float: left;
+    font-weight: bold;
+}
+
+.logo{
+    float: left;
+    margin-left: 58px;
+    margin-top: 33px;
+    width: 145px;
+    height: 67px;
+    background: url('../images/logo.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    clear: both;
+}
+
+#top-bar{
+    height:100px; 
+    width:100%;
+}
+
+#hoteventdv{
+    min-width: 1800px;
+    height: 597px;
+    background: url(../images/hot-event.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#newsdv{
+    min-width: 1800px;
+    height: 596px;
+    background: url(../images/news.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#gamesdv{
+    min-width: 1800px;
+    height: 651px;
+    background: url(../images/games.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#contactdv{
+    min-width: 1800px;
+    height: 585px;
+    background: url(../images/contact.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#footerdv{
+    min-width: 1800px;
+    height: 184px;
+    background: url(../images/footer.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+
+}
